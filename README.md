@@ -14,8 +14,11 @@
 
 
 
-# PyContinual (An Easy and Extendible Framework for Continual Learning)
+# PyContinual (An Easy and Extendible Framework for Continual Learning in NLP and Image Classification)
 
+## News
+
+We release [PyContinual v1.0](https://github.com/ZixuanKe/PyContinual/tree/main/v1.0). More readable, more recent package, more baselines and multi-node training. Check it out!
 
 
 ## Easy to Use
