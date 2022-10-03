@@ -1,21 +1,21 @@
 
 
-# PyContinual v1.0
+# PyContinual v1.0.0
 
 ## Introduction
-We release v1.0, it improves v0.0 in the followings aspects:
+We release v1.0.0, it improves v0.0 in the followings aspects:
 
-* Improve the readability. We removed most of the unnecessary and duplicated code. We use some more recent package (Accelerate, Adapter-transformer, Transformer) to help achieve this.  
-* More type of NLP tasks are supported. It currently supports classification (ASC, CCD), extraction (NER) and generation (summerization, dialogue response)
-* More underlying LMs are supported. It currently supports BERT, RoBERTa and BART
-* More recent NLP techniques are supported. It currently supports adapter and (soft-)prompt.
+* Improve the readability. We removed most of the unnecessary and duplicated code. We use some more recent packages (Accelerate, Adapter-transformer, Transformer) to help achieve this.  
+* We focused on **Transformer-based** CL method. More type of NLP tasks are supported. It currently supports **classification** (ASC, CCD), **extraction** (NER) and **generation** (summerization, dialogue response)
+* More underlying LMs are supported. It currently supports **BERT, RoBERTa and BART**
+* More recent NLP techniques are supported. It currently supports **adapter and (soft-)prompt**.
 * More efficient. Fp16 and multi-node training are supported
 
-## Limitations
-We are still working on immigrate v0.0 to v1.0. At this moment, there are still some limitations **(PR welcomed)**
+## TODOs
+We are still working on immigrate v0.0.0 to v1.0.0. At this moment, there are still some TODOs **(PR welcomed)**
 
-* So far, it supports the following baselines: NCL, ONE, EWC, HAT, B-CL, CTR, CAT, [SupSup](https://arxiv.org/abs/2006.14769), [L2P](https://arxiv.org/abs/2112.08654) 
-* So far, it supports only the Task-incremental scenario (task ID is given in both training and testing)
+* At this moment, it supports only the following baselines: NCL, ONE, EWC, HAT, B-CL, CTR, CAT, [SupSup](https://arxiv.org/abs/2006.14769), [L2P](https://arxiv.org/abs/2112.08654) 
+* At this moment, it supports only the Task-incremental scenario (task ID is given in both training and testing)
 
 ## Architecture
 `./dataloader`: contained dataloader for different data
@@ -23,7 +23,7 @@ We are still working on immigrate v0.0 to v1.0. At this moment, there are still 
 `./networks`: code for network architecture  
 `./sequence`: different sequences  
 `./utils`: common utils and model-specific utils. The default hyper-parameters are hard-coded in utils  
-`./tools`: code for preparing the data and analysis (e.g. forgetting rate)
+`./tools`: code for pre-processing the data and conduct analysis (e.g. forgetting rate, heatmap...)
 
 ## Setup
 
@@ -78,7 +78,7 @@ If you have questions about what papers the baseline systems refer to or how to 
 ## Contact
 
 
-Please drop an email to [Zixuan Ke](mailto:zke4@uic.edu), [Yijia Shao](mailto:shaoyj@pku.edu.cn), [haowei Lin](mailto:linhaowei@pku.edu.cn), or [Xingchang Huang](mailto:huangxch3@gmail.com) if you have any questions regarding to the code. We thank [Bing Liu](https://www.cs.uic.edu/~liub/), [Hu Xu](https://howardhsu.github.io/) and [Lei Shu](https://leishu02.github.io/) for their valuable comments and opinioins.
+Please drop an email to [Zixuan Ke](mailto:zke4@uic.edu), [Yijia Shao](mailto:shaoyj@pku.edu.cn), [Haowei Lin](mailto:linhaowei@pku.edu.cn), or [Xingchang Huang](mailto:huangxch3@gmail.com) if you have any questions regarding to the code. We thank [Bing Liu](https://www.cs.uic.edu/~liub/), [Hu Xu](https://howardhsu.github.io/) and [Lei Shu](https://leishu02.github.io/) for their valuable comments and opinioins.
 
 
 

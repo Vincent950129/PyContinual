@@ -1,24 +1,11 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-# PyContinual (An Easy and Extendible Framework for Continual Learning in NLP and Image Classification)
+# PyContinual (An Easy and Extendible Framework for Continual Learning)
 
 ## News
 
-We release [PyContinual v1.0](https://github.com/ZixuanKe/PyContinual/tree/main/v1.0). More readable, more recent package, more baselines and multi-node training. Check it out!
+We released [PyContinual v1.0.0](https://github.com/ZixuanKe/PyContinual/tree/main/v1.0.0). More readable code, more recent packages, more baselines, more task types (extraction and generation) and multi-node training. Check it out!
 
 
 ## Easy to Use
@@ -71,13 +58,13 @@ This repository contains the code for the following papers:
 * **Training Modes**: It currently supports single-GPU. You can also change it to multi-node distributed training and the mixed precision training.
 
 ## Architecture
-`./res`: all results saved in this folder.  
-`./dat`: processed data  
-`./data`: raw data
-`./dataloader`: contained dataloader for different data
+`./res`: all results saved in this folder.    
+`./dat`: processed data    
+`./data`: raw data  
+`./dataloader`: contained dataloader for different data  
 `./approaches`: code for training  
 `./networks`: code for network architecture  
-`./data_seq`:  some reference sequences (e.g. asc_random)
+`./data_seq`:  some reference sequences (e.g. asc_random)  
 `./tools`: code for preparing the data
 
 ## Setup
