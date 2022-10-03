@@ -1,7 +1,7 @@
 
 
 
-# PyContinual (An Easy and Extendible Framework for Continual Learning)
+# PyContinual v0.0.0 (An Easy and Extendible Framework for Continual Learning)
 
 ## News
 

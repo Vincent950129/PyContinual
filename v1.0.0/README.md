@@ -60,7 +60,7 @@ done
 
 ```
 
-Above shows a typical command to run PyContinual v1.0. Some of the arguments are easy to understand, We further explain some PyContinual arguments:
+Above shows a typical command to run PyContinual v1.0.0 Some of the arguments are easy to understand, We further explain some PyContinual arguments:
 
   - `idrandom`: which random sequence you want to use  
   - `round`: which seeds you want to use  
@@ -73,7 +73,7 @@ Above shows a typical command to run PyContinual v1.0. Some of the arguments are
     - supsup_ggg
   - `base_dir`: you need to make sure your dataset is in this directory 
     
-If you have questions about what papers the baseline systems refer to or how to download the data. Please check the [v0.0 README](https://github.com/ZixuanKe/PyContinual)
+If you have questions about what papers the baseline systems refer to or how to download the data. Please check the [v0.0.0 README](https://github.com/ZixuanKe/PyContinual/v0.0.0)
 
 ## Contact
 
